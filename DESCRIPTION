@@ -1,0 +1,29 @@
+Package: torkilData
+Title: A Data Package for HEV9009 PhD Course
+Version: 0.0.0.9000
+Authors@R: 
+    person("Torkil", "Rogneflåten", , "torkil.rogneflaten@inn.no", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package contains all (raw to tidy) data sets generated from the top of my head.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.0
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Imports: 
+    dplyr,
+    forcats,
+    purrr,
+    readr,
+    readxl,
+    stringr,
+    tibble,
+    tidyr,
+    zoo
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
